@@ -1,4 +1,5 @@
 function takeANumber (line, name){
-line.push (name);
-  return (`Welcome, ${name}. You are number ${line.lenght} in line.`)
+line = 1;
+line++;
+  return (`Welcome, ${name}. You are number ${line} in line.`)
 }
