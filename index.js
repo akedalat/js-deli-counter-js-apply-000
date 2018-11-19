@@ -12,12 +12,12 @@ function nowServing(line) {
 };
 
 function currentLine (line){
-let i = 0;
-while (i<line.length) {
+for (var i = 0; i < array.length; i++) {
+  
   if (!line.length) {
     return "The line is currently empty."
   }
   return `The line is currently: ${i+1}. ${line[i]}.`
-  i++;
+  
 }
 }
