@@ -15,10 +15,11 @@ function currentLine (line){
   if (!line.length) {
     return "The line is currently empty."
   }
+var string = "The line is currently"
 for (var i = 0; i < line.length; i++) {
 
 
-  return `The line is currently: ${i+1}. ${line[i]}.`
+  return 'string' + `: ${i+1}. ${line[i]}.`
 
 }
 }
