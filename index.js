@@ -12,4 +12,4 @@ function nowServing (line){
     return `currently serving ${line.shift()}.`
 
 }
-}
+};
