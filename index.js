@@ -1,4 +1,4 @@
-function takeANumber (number, name){
-
-  return (`Welcome, ${name}. You are number ${number} in line.`)
+function takeANumber (line, name){
+line.push (name)
+  return (`Welcome, ${name}. You are number ${line.lenght} in line.`)
 }
