@@ -6,7 +6,7 @@ function takeANumber(line, name) {
 
 function nowServing (line){
 
-  if (line.lenght = 0) {
+  if (!line.lenght) {
     return 'There is nobody waiting to be served!'
   } else {
     return line;
