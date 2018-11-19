@@ -24,8 +24,6 @@ if (i === line.length -1) {
   string = string + ` ${i+1}. ${line[i]}`
 }
 
-
-
 }
 return string
 }
