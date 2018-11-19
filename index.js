@@ -10,7 +10,7 @@ while (i<line.lenght) {
   if (line.lenght = 0) {
     return 'There is nobody waiting to be served!'
   } else {
-    return katzDeliLine [i];
+    return line [i];
     line.shift();
   }
 i++;
